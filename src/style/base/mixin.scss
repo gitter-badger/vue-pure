@@ -1,0 +1,9 @@
+// 混合，只加入有用的css片段，不属于工具类，一行代码能自行解决就自行解决
+
+// 字数截断
+@mixin lineclamp($num: 1) {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $num;
+}
