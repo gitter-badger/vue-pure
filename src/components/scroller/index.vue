@@ -28,7 +28,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .scroller {
   height: 100%;
   width: auto;
@@ -40,6 +40,9 @@ export default {
   height: auto;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  height: 100%;
+}
+.swiper-wrapper{
   height: 100%;
 }
 

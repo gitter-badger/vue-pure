@@ -22,11 +22,8 @@ export default {
             text: 'text',
           },
         ];
-      }
+      },
     },
   },
 };
 </script>
-<style lang="scss">
-@import './index.scss';
-</style>

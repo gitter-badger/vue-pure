@@ -26,13 +26,11 @@ module.exports = {
   resolve: {
     root: path.resolve('src'),
     alias: {
-      vue: 'vue/dist/vue.js',
+      vue: 'vue/dist/vue.min.js',
       src: path.resolve(__dirname, '../src'),
-      api: path.resolve(__dirname, '../src/api'),
       views: path.resolve(__dirname, '../src/views'),
       components: path.resolve(__dirname, '../src/components'),
       _utils: path.resolve(__dirname, '../src/_utils'),
-      store: path.resolve(__dirname, '../src/store'),
       assets: path.resolve(__dirname, '../src/assets'),
       style: path.resolve(__dirname, '../src/style'),
     },
