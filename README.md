@@ -1,5 +1,7 @@
 # vue-pure powered by Vue2
 
+> like element for Desktop
+
 ## 技术栈
 
 - vue2
