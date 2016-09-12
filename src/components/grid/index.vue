@@ -11,7 +11,7 @@
 export default {
   props: {
     c: {
-      default: 'gird',
+      default: 'grid',
     },
     list: {
       default() {
