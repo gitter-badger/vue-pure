@@ -14,22 +14,19 @@
 import Swiper from 'swiper';
 
 export default {
-  props: {
-    direction: {
-      default: 'vertical',
-    },
+  data() {
+    return {
+    };
   },
   mounted() {
     setTimeout(function() {
       var swiper = new Swiper('.scroller', {
           scrollbar: '.swiper-scrollbar',
-          direction: this.direction,
+          direction: 'vertical',
           slidesPerView: 'auto',
           mousewheelControl: true,
           freeMode: true,
-          freeModeMomentumBounce: false,
-          updateOnImagesReady: true, // 自动刷新
-          observer: true,
+          freeModeMomentumBounce: false
       });
     }, 500);
   },
