@@ -12,7 +12,7 @@
 </template>
 <script>
 import { gird, scroller } from 'components';
-import { orderGird, doGird, navGird } from 'components/gird/mixin';
+import { orderGird, doGird, navGird } from 'components/_mixins/gird';
 
 export default {
   mixins: [
