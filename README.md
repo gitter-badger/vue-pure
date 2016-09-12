@@ -1,5 +1,7 @@
 # vue-pure powered by Vue2
 
+> for WebApp
+
 ## 技术栈
 
 - vue2
