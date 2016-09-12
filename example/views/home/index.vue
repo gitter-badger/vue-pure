@@ -21,9 +21,9 @@ export default {
           link: '/cell',
         },
         {
-          title: 'gird',
+          title: 'grid',
           value: 'Flex网格',
-          link: '/gird',
+          link: '/grid',
         },
         {
           title: 'scroller',
