@@ -5,7 +5,7 @@
         <slot>
         </slot>
       </div>
-      </div>
+    </div>
     <div class="swiper-scrollbar"></div>
   </div>
 </template>
@@ -14,36 +14,51 @@
 import Swiper from 'swiper';
 
 export default {
+  props: {
+    direction: {
+      default: 'vertical',
+    },
+  },
   mounted() {
-    const swiper = new Swiper('.scroller', {
-        scrollbar: '.swiper-scrollbar',
-        direction: 'vertical',
-        slidesPerView: 'auto',
-        mousewheelControl: true,
-        freeMode: true,
-        updateOnImagesReady: true, // 自动刷新
-        observer: true,
-    });
+    setTimeout(function() {
+      var swiper = new Swiper('.scroller', {
+          scrollbar: '.swiper-scrollbar',
+          direction: this.direction,
+          slidesPerView: 'auto',
+          mousewheelControl: true,
+          freeMode: true,
+          freeModeMomentumBounce: false
+          updateOnImagesReady: true, // 自动刷新
+          observer: true,
+      });
+    }, 500)
   },
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .scroller {
   height: 100%;
-  width: auto;
-  overflow: hidden;
+  width: 100%;
   position: relative;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  height: 100%
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
 }
 .swiper-slide {
   font-size: 16px;
   height: auto;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  height: 100%;
-}
-.swiper-wrapper{
-  height: 100%;
+  position: relative;
+  flex-shrink: 0;
 }
 
 </style>
