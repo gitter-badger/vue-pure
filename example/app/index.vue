@@ -6,14 +6,8 @@
 </div>
 </template>
 <script>
-import { scroller } from 'components';
-
-export default {
-  components: {
-    scroller,
-  },
-};
 </script>
 <style lang="scss">
 @import '~style/init.scss';
+@import '~style/components/index.scss';
 </style>

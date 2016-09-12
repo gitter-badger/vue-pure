@@ -1,9 +1,9 @@
 export default {};
 
-export const orderGird = {
+export const orderGrid = {
   data() {
     return {
-      orderGird: [
+      orderGrid: [
         {
           iconClass: 'i-waitpay',
           number: '',
@@ -24,10 +24,10 @@ export const orderGird = {
   },
 };
 
-export const doGird = {
+export const doGrid = {
   data() {
     return {
-      doGird: [
+      doGrid: [
         {
           iconClass: 'i-pushmoney',
           number: '',
@@ -43,10 +43,10 @@ export const doGird = {
   },
 };
 
-export const navGird = {
+export const navGrid = {
   data() {
     return {
-      navGird: [
+      navGrid: [
         {
           iconClass: 'i-index',
           number: '',

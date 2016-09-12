@@ -8,10 +8,10 @@
 </div>
 </template>
 <script>
-import { ui } from 'components';
+import { uiBtn } from 'components';
 export default {
   components: {
-    uiBtn: ui.uiBtn,
+    uiBtn,
   },
 };
 </script>

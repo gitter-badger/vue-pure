@@ -11,7 +11,7 @@
 export default {
   props: {
     c: {
-      default: 'gird',
+      default: 'grid',
     },
     list: {
       default() {
@@ -22,11 +22,8 @@ export default {
             text: 'text',
           },
         ];
-      }
+      },
     },
   },
 };
 </script>
-<style lang="scss">
-@import './index.scss';
-</style>

@@ -2,7 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 // 页面
 import home from '../views/home';
-import gird from '../views/gird';
+import grid from '../views/grid';
 import cell from '../views/cell';
 import scroller from '../views/scroller';
 import ui from '../views/ui';
@@ -14,7 +14,7 @@ export default new VueRouter({
   routes: [
     { path: '/', component: home },
     { path: '/cell', component: cell },
-    { path: '/gird', component: gird },
+    { path: '/grid', component: grid },
     { path: '/scroller', component: scroller },
     { path: '/ui', component: ui },
   ],

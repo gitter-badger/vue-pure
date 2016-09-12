@@ -32,8 +32,12 @@ if (process.env.NODE_ENV === 'prod') {
     }),
     new webpack.optimize.UglifyJsPlugin({
       compress: {
-        warnings: false,
+        warnings: true
       },
+      output: {
+        comments: false
+      },
+      sourceMap: false
     }),
     new webpack.optimize.OccurrenceOrderPlugin(),
     // 自动注入 html
