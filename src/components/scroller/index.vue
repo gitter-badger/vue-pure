@@ -27,11 +27,11 @@ export default {
           slidesPerView: 'auto',
           mousewheelControl: true,
           freeMode: true,
-          freeModeMomentumBounce: false
+          freeModeMomentumBounce: false,
           updateOnImagesReady: true, // 自动刷新
           observer: true,
       });
-    }, 500)
+    }, 500);
   },
 };
 </script>
