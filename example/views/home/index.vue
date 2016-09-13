@@ -49,6 +49,12 @@ export default {
           link: '/nothing',
           iconClass: 'i i-link',
         },
+        {
+          title: 'Input',
+          value: '单条输入框',
+          link: '/input',
+          iconClass: 'i i-link',
+        },
       ],
     };
   },

@@ -1,0 +1,27 @@
+.input--default {
+  border: .01rem solid #ddd;
+  background: none;
+  outline: 0;
+}
+
+.inputitem{
+  display: flex;
+  background-color: #fff;
+  padding: 0 .1rem;
+  height: .4rem;
+  line-height: .4rem;
+  border-bottom: .01rem solid #ddd;
+  border-top: .01rem solid #ddd;
+  &__title {
+    width: .8rem;
+    text-align: left;
+  }
+  &__icon {
+    margin-right: .1rem;
+  }
+  &__input {
+     @extend .input--default;
+     border: none;
+     flex:1;
+  }
+}
