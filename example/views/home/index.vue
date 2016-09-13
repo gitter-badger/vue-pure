@@ -49,6 +49,12 @@ export default {
           link: '/input',
           iconClass: 'i i-link',
         },
+        {
+          title: 'Checkbox',
+          value: '复选框 - 样式',
+          link: '/checkbox',
+          iconClass: 'i i-link',
+        },
       ],
     };
   },
