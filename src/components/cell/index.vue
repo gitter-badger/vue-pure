@@ -1,6 +1,6 @@
 <template>
 <div :class="c" @click="$emit('on-link')">
-  <i class="i" :class="[ c + '__icon',iconClass ]" :style="iconStyle" v-if="isIcon"></i>
+  <i :class="[ c + '__icon',iconClass ]" :style="iconStyle" v-if="isIcon"></i>
   <span v-text="title" :class="c + '__title'"></span>
   <span v-text="value" :class="c + '__value'"></span>
   <i class="i i-link" :class="c + '__link'" v-if="isLink"></i>
@@ -16,7 +16,7 @@ export default {
       default: true,
     },
     iconClass: {
-      default: 'i-index',
+      default: 'i i-index',
     },
     iconStyle: {
       default() {
