@@ -6,8 +6,91 @@
   border-bottom: .01rem solid #eee;
   padding: .1rem 0;
   background-color: #fff;
-  &__title{
+  &-title{
     flex: 1;
+  }
+  &__title{
+    @include lineclamp(2);
+  }
+  &__subtitle{
+    color: #666;
+  }
+  &__value{
+    color: #666;
+    margin-right: .1rem;
+  }
+  &__icon{
+    margin-left: .1rem;
+    width: .3rem;
+  }
+  &__link{
+    margin-right: .1rem;
+    color:#666;
+  }
+}
+
+.cell--valueleft{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: .01rem solid #eee;
+  padding: .1rem 0;
+  background-color: #fff;
+  &__title{
+    @include lineclamp(2);
+  }
+  &__subtitle{
+    color: #666;
+  }
+  &__value{
+    color: #666;
+    margin-left: .1rem;
+    flex: 1;
+  }
+  &__icon{
+    margin-left: .1rem;
+    width: .3rem;
+  }
+  &__link{
+    margin-right: .1rem;
+    color:#666;
+  }
+}
+
+.cell--title{
+  width: 100%;
+  margin: .05rem .15rem;
+  font-size: 14px;
+  color: #666;
+  &__icon {
+    font-size: 16px;
+  }
+  &-title {
+    display: inline-block;
+  }
+  &__title{
+    @include lineclamp(2);
+  }
+}
+
+
+.cell--card{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: .01rem solid #eee;
+  padding: .1rem 0;
+  background-color: #fff;
+  &-title{
+    flex: 1;
+  }
+  &__title{
+    @include lineclamp(2);
+  }
+  &__subtitle{
+    color: #666;
   }
   &__value{
     color: #666;

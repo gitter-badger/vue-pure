@@ -14,10 +14,6 @@
 import Swiper from 'swiper';
 
 export default {
-  data() {
-    return {
-    };
-  },
   mounted() {
     setTimeout(function() {
       var swiper = new Swiper('.scroller', {

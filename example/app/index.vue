@@ -10,4 +10,7 @@
 <style lang="scss">
 @import '~style/init.scss';
 @import '~style/components/index.scss';
+body {
+  background: #fbf9fe;
+}
 </style>

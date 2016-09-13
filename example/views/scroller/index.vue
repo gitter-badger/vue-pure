@@ -8,10 +8,10 @@
 </div>
 </template>
 <script>
-import { scroller } from 'components';
+import { Scroller } from 'components';
 export default {
   components: {
-    scroller,
+    Scroller,
   },
 };
 </script>

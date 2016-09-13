@@ -5,17 +5,17 @@ export const orderGrid = {
     return {
       orderGrid: [
         {
-          iconClass: 'i-waitpay',
+          iconClass: 'i i-waitpay',
           number: '',
           text: '待付款',
         },
         {
-          iconClass: 'i-waitget',
+          iconClass: 'i i-waitget',
           number: '',
           text: '待收货',
         },
         {
-          iconClass: 'i-over',
+          iconClass: 'i i-over',
           number: '',
           text: '已完成',
         },
@@ -29,12 +29,12 @@ export const doGrid = {
     return {
       doGrid: [
         {
-          iconClass: 'i-pushmoney',
+          iconClass: 'i i-pushmoney',
           number: '',
           text: '充值',
         },
         {
-          iconClass: 'i-tel',
+          iconClass: 'i i-tel',
           number: '',
           text: '更新信息',
         },
@@ -48,22 +48,22 @@ export const navGrid = {
     return {
       navGrid: [
         {
-          iconClass: 'i-index',
+          iconClass: 'i i-index',
           number: '',
           text: '首页',
         },
         {
-          iconClass: 'i-search',
+          iconClass: 'i i-search',
           number: '',
           text: '分类搜索',
         },
         {
-          iconClass: 'i-shoppingcart',
+          iconClass: 'i i-shoppingcart',
           number: '',
           text: '购物车',
         },
         {
-          iconClass: 'i-member',
+          iconClass: 'i i-member',
           number: '',
           text: '我的',
         },

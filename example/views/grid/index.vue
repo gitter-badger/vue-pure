@@ -11,8 +11,8 @@
 </div>
 </template>
 <script>
-import { grid, scroller } from 'components';
-import { orderGrid, doGrid, navGrid } from '_mixins/grid';
+import { Grid, Scroller } from 'components';
+import { orderGrid, doGrid, navGrid } from './grid';
 
 export default {
   mixins: [
@@ -21,7 +21,8 @@ export default {
     navGrid,
   ],
   components: {
-    grid,
+    Scroller,
+    Grid,
   },
 };
 
