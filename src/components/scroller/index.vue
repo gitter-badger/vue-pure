@@ -15,16 +15,14 @@ import Swiper from 'swiper';
 
 export default {
   mounted() {
-    setTimeout(function() {
-      var swiper = new Swiper('.scroller', {
-          scrollbar: '.swiper-scrollbar',
-          direction: 'vertical',
-          slidesPerView: 'auto',
-          mousewheelControl: true,
-          freeMode: true,
-          freeModeMomentumBounce: false
-      });
-    }, 500);
+    var swiper = new Swiper('.scroller', {
+        scrollbar: '.swiper-scrollbar',
+        direction: 'vertical',
+        slidesPerView: 'auto',
+        mousewheelControl: true,
+        freeMode: true,
+        freeModeMomentumBounce: false
+    });
   },
 };
 </script>
