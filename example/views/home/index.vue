@@ -13,7 +13,7 @@
   </div>
 </template>
 <script>
-import { cell, scroller } from 'components';
+import { Cell, Scroller } from 'components';
 
 export default {
   data() {
@@ -53,8 +53,8 @@ export default {
     };
   },
   components: {
-    cell,
-    scroller,
+    Cell,
+    Scroller,
   },
 };
 </script>
