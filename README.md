@@ -22,6 +22,8 @@
 
 - 保持mounted(){} 内代码清爽
 
+- 请保持import from 的文件名和from后文件名大小写一致
+
 ## 组件维护方案
 
 - components/ 全局公用组件 （为进一步全局组件库做准备），在main.js进行全局注册

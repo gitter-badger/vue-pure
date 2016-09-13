@@ -1,11 +1,15 @@
 <template>
   <div style="height:100%;">
     <h1 class="example__title">纯组件示例列表</h1>
-        <cell
-        v-for="item in cellList"
-        :title="item.title"
-        :value="item.value"
-        @on-link="$router.push(item.link)"></cell>
+    <scroller>
+      <cell
+      v-for="item in cellList"
+      :title="item.title"
+      :value="item.value"
+      :icon-class="item.iconClass"
+      :is-link="false"
+      @on-link="$router.push(item.link)"></cell>
+    </scroller>
   </div>
 </template>
 <script>
@@ -16,24 +20,34 @@ export default {
     return {
       cellList: [
         {
-          title: 'cell',
+          title: 'Cell',
           value: '单条按钮',
           link: '/cell',
+          iconClass: 'i i-link',
         },
         {
-          title: 'grid',
+          title: 'Grid',
           value: 'Flex网格',
           link: '/grid',
+          iconClass: 'i i-link',
         },
         {
-          title: 'scroller',
+          title: 'Scroller',
           value: '基于swiper的滚动',
           link: '/scroller',
+          iconClass: 'i i-link',
         },
         {
-          title: 'ui',
+          title: 'UI',
           value: '基础样式组件',
           link: '/ui',
+          iconClass: 'i i-link',
+        },
+        {
+          title: 'Nothing',
+          value: '结果组件 - 无',
+          link: '/nothing',
+          iconClass: 'i i-link',
         },
       ],
     };
