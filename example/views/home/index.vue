@@ -38,12 +38,6 @@ export default {
           iconClass: 'i i-link',
         },
         {
-          title: 'UI',
-          value: '基础样式组件',
-          link: '/ui',
-          iconClass: 'i i-link',
-        },
-        {
           title: 'Nothing',
           value: '结果组件 - 无',
           link: '/nothing',
