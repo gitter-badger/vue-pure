@@ -8,6 +8,7 @@ import Scroller from '../views/scroller';
 import Layout from '../views/layout';
 import Nothing from '../views/nothing';
 import Input from '../views/input';
+import Checkbox from '../views/checkbox';
 
 Vue.use(VueRouter);
 
@@ -21,5 +22,6 @@ export default new VueRouter({
     { path: '/layout', component: Layout },
     { path: '/nothing', component: Nothing },
     { path: '/input', component: Input },
+    { path: '/checkbox', component: Checkbox },
   ],
 });

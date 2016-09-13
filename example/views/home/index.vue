@@ -38,12 +38,6 @@ export default {
           iconClass: 'i i-link',
         },
         {
-          title: 'UI',
-          value: '基础样式组件',
-          link: '/ui',
-          iconClass: 'i i-link',
-        },
-        {
           title: 'Nothing',
           value: '结果组件 - 无',
           link: '/nothing',
@@ -53,6 +47,12 @@ export default {
           title: 'Input',
           value: '单条输入框',
           link: '/input',
+          iconClass: 'i i-link',
+        },
+        {
+          title: 'Checkbox',
+          value: '复选框 - 样式',
+          link: '/checkbox',
           iconClass: 'i i-link',
         },
       ],
