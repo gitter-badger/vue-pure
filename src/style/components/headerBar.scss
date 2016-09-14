@@ -1,0 +1,20 @@
+.headerbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: .4rem;
+  background-color: #fff;
+  border-bottom: .01rem solid #ddd;
+  &__title {
+    flex: 1;
+    text-align: center;
+  }
+  .icontext--left{
+    margin-left: .1rem;
+    margin-right: .05rem;
+  }
+  .icontext--right{
+    margin-right: .1rem;
+    margin-left: .05rem;
+  }
+}

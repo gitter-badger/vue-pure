@@ -9,11 +9,6 @@
 
 <script>
 export default {
-  // data() {
-  //   return {
-  //     isChecked: false,
-  //   };
-  // },
   props: {
     c: {
       default: 'checkbox',
