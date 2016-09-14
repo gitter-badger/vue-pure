@@ -9,6 +9,8 @@ import Layout from '../views/layout';
 import Nothing from '../views/nothing';
 import Input from '../views/input';
 import Checkbox from '../views/checkbox';
+import IconText from '../views/iconText';
+import HeaderBar from '../views/headerBar';
 
 Vue.use(VueRouter);
 
@@ -23,5 +25,7 @@ export default new VueRouter({
     { path: '/nothing', component: Nothing },
     { path: '/input', component: Input },
     { path: '/checkbox', component: Checkbox },
+    { path: '/icontext', component: IconText },
+    { path: '/headerbar', component: HeaderBar },
   ],
 });
