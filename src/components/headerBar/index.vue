@@ -1,15 +1,16 @@
 <template>
 <header :class="c">
-
-  <icon-text :c="leftClass" :text="leftText" :icon-class="leftIcon" :position="leftTextPosition" @on-whole="$emit('on-left')"></icon-text>
-  <slot name="left"></slot>
+  <slot name="left">
+    <icon-text :c="leftClass" :text="leftText" :icon-class="leftIcon" :position="leftTextPosition" @on-whole="$emit('on-left')"></icon-text>
+  </slot>
 
   <slot name="title">
     <span v-text="title" :class="c + '__title'" @click="$emit('on-title')"></span>
   </slot>
 
-  <slot name="right"></slot>
-  <icon-text :c="rightClass" :text="rightText" :icon-class="rightIcon" :position="rightTextPosition" @on-whole="$emit('on-right')"></icon-text>
+  <slot name="right">
+    <icon-text :c="rightClass" :text="rightText" :icon-class="rightIcon" :position="rightTextPosition" @on-whole="$emit('on-right')"></icon-text>
+  </slot>
 
 </header>
 </template>
