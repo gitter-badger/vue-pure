@@ -1,6 +1,6 @@
 <template>
   <div style="height:100%;">
-    <h1 class="example__title">纯组件示例列表</h1>
+    <h1 class="example__title">Vue Pure</h1>
     <scroller>
       <cell
       v-for="item in cellList"
