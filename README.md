@@ -1,5 +1,6 @@
 <p align="center"><a href="http://vue-pure.dingyiming.cn" target="_blank"><img width="400"src="https://cloud.githubusercontent.com/assets/12537013/18533150/8325bd0a-7b13-11e6-9084-ed27b2466e3c.png"></a></p>
 <p align="center">
+<a href="http://stackshare.io/dingyiming/dingyiming"><img src="http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat" alt="stack"></a>
 <a href="https://travis-ci.org/dingyiming/vue-pure"><img src="https://travis-ci.org/dingyiming/vue-pure.png" alt="Build Status"></a>
 <a href="https://circleci.com/gh/dingyiming/vue-pure"><img src="https://img.shields.io/circleci/project/dingyiming/vue-pure/dev.svg" alt="Build Status"></a>
 </p>
