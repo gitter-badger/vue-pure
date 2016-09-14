@@ -1,8 +1,10 @@
 # vue-pure powered by Vue2
 
+[![Build Status](https://travis-ci.org/dingyiming/vue-pure.png)](https://travis-ci.org/dingyiming/vue-pure)
+
 > for WebApp
 
-> 2016.09.12 update
+> 2016.09.15 update
 
 ## 技术栈
 
@@ -13,6 +15,9 @@
 - swiper
 - normalize.css
 - webpack2
+- SCSS
+- BEM
+- Travis CI
 
 ## 规范
 
