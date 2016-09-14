@@ -94,7 +94,7 @@ module.exports = {
     })
   ],
   eslint: {
-    configFile: '.eslintrc.js',
+    configFile: '.eslintrc',
   },
 }
 
