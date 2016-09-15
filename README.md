@@ -13,6 +13,8 @@
 
 ## 技术栈
 
+[![Join the chat at https://gitter.im/vuepure/Lobby](https://badges.gitter.im/vuepure/Lobby.svg)](https://gitter.im/vuepure/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 - vue2
 - vue-router
 - vuex
