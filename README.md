@@ -4,7 +4,7 @@
 <a href="https://travis-ci.org/dingyiming/vue-pure"><img src="https://travis-ci.org/dingyiming/vue-pure.png" alt="Build Status"></a>
 <a href="https://circleci.com/gh/dingyiming/vue-pure"><img src="https://img.shields.io/circleci/project/dingyiming/vue-pure/dev.svg" alt="Build Status"></a>
 <a href="http://isitmaintained.com/project/dingyiming/vue-pure"><img src="http://isitmaintained.com/badge/resolution/dingyiming/vue-pure.svg" alt="Build Status"></a>
-<a href="http://isitmaintained.com/project/dingyiming/vue-pure"><img src="(http://isitmaintained.com/badge/open/dingyiming/vue-pure.svg" alt="Build Status"></a>
+<a href="http://isitmaintained.com/project/dingyiming/vue-pure"><img src="http://isitmaintained.com/badge/open/dingyiming/vue-pure.svg" alt="Build Status"></a>
 </p>
 
 > for WebApp
