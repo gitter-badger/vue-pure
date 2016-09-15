@@ -3,6 +3,8 @@
 <a href="http://stackshare.io/dingyiming/dingyiming"><img src="http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat" alt="stack"></a>
 <a href="https://travis-ci.org/dingyiming/vue-pure"><img src="https://travis-ci.org/dingyiming/vue-pure.png" alt="Build Status"></a>
 <a href="https://circleci.com/gh/dingyiming/vue-pure"><img src="https://img.shields.io/circleci/project/dingyiming/vue-pure/dev.svg" alt="Build Status"></a>
+<a href="http://isitmaintained.com/project/dingyiming/vue-pure"><img src="http://isitmaintained.com/badge/resolution/dingyiming/vue-pure.svg" alt="Build Status"></a>
+<a href="http://isitmaintained.com/project/dingyiming/vue-pure"><img src="(http://isitmaintained.com/badge/open/dingyiming/vue-pure.svg" alt="Build Status"></a>
 </p>
 
 > for WebApp
@@ -64,6 +66,4 @@
 
 - 自定义组件绑定原生DOM事件 如 `@click` 是无效的，需要通过自定义事件进行响应，在组件 `HeaderBar`的时候注意到了这一点，进行了修正。
 
-## Vue 生命周期
-
-![](http://rc.vuejs.org/images/lifecycle.png)
+- 推荐统一按照Vue生命周期排列实例函数
